@@ -2,6 +2,6 @@ prefix=@prefix@
 exec_prefix=${prefix}
 libdir=@libdir@
 
-Name: apertium-tur
-Description: Finite-state morphological transducer and constraint grammar for Turkish
+Name: apertium-aze
+Description: Finite-state morphological transducer and constraint grammar for Azeri 
 Version: @VERSION@
