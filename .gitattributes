@@ -1,1 +1,17 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/TODO -text
+/apertium-aze-1.0.pc.in -text
+/apertium-aze.aze.lexc -text
+/apertium-aze.aze.rlx -text
+/apertium-aze.aze.twol -text
+/autogen.sh -text
+/configure.ac -text
+/coveragemac.sh -text
+/coveragescrhips -text
+/parallel -text
