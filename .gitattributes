@@ -6,10 +6,10 @@
 /NEWS -text
 /README -text
 /TODO -text
-/apertium-aze-1.0.pc.in -text
 /apertium-aze.aze.lexc -text
 /apertium-aze.aze.rlx -text
 /apertium-aze.aze.twol -text
+/apertium-aze.pc.in -text
 /autogen.sh -text
 /configure.ac -text
 /coveragemac.sh -text
