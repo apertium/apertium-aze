@@ -14,5 +14,5 @@
 /configure.ac -text
 /coveragemac.sh -text
 /coveragescrhips -text
-dev/pos_categorized.ilkin.txt -text
+dev/aze.freq.categorised.txt -text
 /parallel -text
