@@ -10,6 +10,7 @@
 /apertium-aze.aze.rlx -text
 /apertium-aze.aze.twol -text
 /apertium-aze.pc.in -text
+/apertium-aze.post-aze.dix -text
 /autogen.sh -text
 /configure.ac -text
 /coveragemac.sh -text
