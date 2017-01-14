@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="aze-twol" install="yes">
+    <pipeline>
+      <program name="hfst-strings2fst -S"/>
+      <program name="hfst-compose-intersect">
+        <file name=".deps/aze.twol.hfst"/>
+      </program>
+      <program name="hfst-fst2strings"/>
+    </pipeline>
+  </mode>
+
+  <mode name="aze-morph" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="aze.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="aze-lexc" install="yes">
+    <pipeline>
+      <program name="hfst-proc -g">
+        <file name=".deps/aze.lexc.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="aze-gener" install="yes">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="aze.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="aze-tagger" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="aze.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="aze.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="aze-disam" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="aze.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 --trace -g">
+        <file name="apertium-aze.aze.rlx"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>

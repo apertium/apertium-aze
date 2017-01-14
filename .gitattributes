@@ -15,4 +15,5 @@
 /coveragemac.sh -text
 /coveragescrhips -text
 dev/aze.freq.categorised.txt -text
+/modes.xml -text
 /parallel -text
